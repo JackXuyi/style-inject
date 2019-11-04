@@ -1,7 +1,8 @@
 export type StringInsertAt = 'top' | string
 
-export type FunInsertAt = () => HTMLStyleElement
+export type InsertAtType = 'ID' | 'CLASS' | 'TAG' | 'GLOABL'
 
 export interface Option {
-  insertAt?: StringInsertAt | FunInsertAt
+  insertAt?: StringInsertAt
+  type?: InsertAtType
 }

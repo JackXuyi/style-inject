@@ -17,14 +17,12 @@ export default {
   output: {
     name: 'i18n',
     file: packageJson.main,
-    format: 'umd',
+    format: 'es',
     banner: copyright,
     exports: 'named',
   },
   plugins: [
     resolve({
-      jsnext: true,
-      main: true,
       browser: true,
       extensions: ['.js', '.ts'],
     }),
