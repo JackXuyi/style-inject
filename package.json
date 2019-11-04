@@ -1,6 +1,6 @@
 {
   "name": "@zhijianren/style-inject",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "custom style inject",
   "main": "./dist/index.min.js",
   "scripts": {
