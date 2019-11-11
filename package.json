@@ -40,5 +40,5 @@
     "rollup-plugin-terser": "^5.1.2",
     "typescript": "^3.6.4"
   },
-  "types": "./typings/index.d.ts"
+  "types": "./typing/index.d.ts"
 }
