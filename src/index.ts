@@ -50,12 +50,8 @@ export default function(css: string, { insertAt, type }: Option = {}) {
     const style: HTMLStyleElement = document.createElement('style')
     style.type = 'text/css'
 
-    if (insertAt === 'top') {
-      if (head.firstChild) {
-        head.insertBefore(style, head.firstChild)
-      } else {
-        head.appendChild(style)
-      }
+    if (head.firstChild) {
+      head.insertBefore(style, head.firstChild)
     } else {
       head.appendChild(style)
     }
